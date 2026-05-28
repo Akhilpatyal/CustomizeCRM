@@ -33,14 +33,7 @@ const LoginPage = () => {
       >
         {/* Left SIDE - VISUAL */}
         <div className="hidden lg:flex relative items-center justify-center overflow-hidden bg-gradient-to-br from-[#0f172a] via-[#1e3a8a] to-[#312e81] text-white">
-          <motion.img
-            src="/assets/images/aajneeti-logo.png"
-            alt="crm visual"
-            initial={{ opacity: 0, x: -40, y: 40 }}
-            animate={{ opacity: 1, x: 0, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.6 }}
-            className="absolute top-4 left-4 w-50 pointer-events-none rounded"
-          />
+         
           {/* 🔲 Grid Pattern */}
           <div className="absolute inset-0 opacity-10 bg-[linear-gradient(#ffffff20_1px,transparent_1px),linear-gradient(90deg,#ffffff20_1px,transparent_1px)] bg-[size:40px_40px]" />
 
@@ -59,7 +52,7 @@ const LoginPage = () => {
               Manage Leads. Track Teams. Scale Faster.
             </h1>
             <p className="text-sm text-white/80 leading-relaxed">
-              Build your sales pipeline with AAJneeti CRM. Track leads, automate follow-ups, monitor team performance, and access real-time insights - all from one intelligent dashboard.
+              Build your sales pipeline with Cutomize CRM. Track leads, automate follow-ups, monitor team performance, and access real-time insights - all from one intelligent dashboard.
             </p>
           </motion.div>
 
@@ -129,7 +122,7 @@ const LoginPage = () => {
 
             {/* Footer */}
             <p className="mt-6 text-xs text-center text-muted-foreground">
-              © {new Date().getFullYear()} Aajneeti Connect Ltd. All rights
+              © {new Date().getFullYear()} Sata Dev pvt Ltd. All rights
               reserved.
             </p>
           </div>
