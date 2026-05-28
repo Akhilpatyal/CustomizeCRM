@@ -460,7 +460,7 @@ const MultiLineChart = ({ leads = [] }) => {
               <Line
                 type="monotone"
                 dataKey="ACL"
-                name="Aajneeti"
+                name="Call"
                 stroke="#22c55e"
                 strokeWidth={2}
                 dot={{ r: 4 }}
@@ -488,7 +488,7 @@ const MultiLineChart = ({ leads = [] }) => {
 
           <div className="flex items-center gap-2 min-w-max">
             <div className="w-3 h-3 rounded-full bg-[#22c55e]" />
-            <span>Aajneeti: {ACLTotal}</span>
+            <span>Call: {ACLTotal}</span>
           </div>
 
           <div className="flex items-center gap-2 min-w-max">
