@@ -22,7 +22,7 @@ const LoginPage = () => {
         <title>Sign In - CRM</title>
         <meta
           name="description"
-          content="Sign in to your Aajneeti Crm account to access your sales pipeline, customer data, and CRM tools."
+          content="Sign in to your Sata Crm account to access your sales pipeline, customer data, and CRM tools."
         />
       </Helmet>
       <motion.div
@@ -122,7 +122,7 @@ const LoginPage = () => {
 
             {/* Footer */}
             <p className="mt-6 text-xs text-center text-muted-foreground">
-              © {new Date().getFullYear()} Sata Dev pvt Ltd. All rights
+              © {new Date().getFullYear()} Unofficial Developer's pvt Ltd. All rights
               reserved.
             </p>
           </div>
