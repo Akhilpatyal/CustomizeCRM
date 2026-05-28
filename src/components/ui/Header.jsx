@@ -102,7 +102,7 @@ const Header = ({ onMenuToggle, isSidebarOpen = false }) => {
                   CRM
                 </span>
                 <span className="px-2 py-0.5 text-xs font-medium bg-orange-400 text-white rounded-full">
-                  By Sasta Dev.
+                  By Unofficial's.
                 </span>
               </div>
             </div>
@@ -114,7 +114,7 @@ const Header = ({ onMenuToggle, isSidebarOpen = false }) => {
                   CRM
                 </span>
                 <span className="px-2 py-0.5 text-xs font-medium bg-orange-400 text-accent-foreground rounded-full">
-                  SD
+                  
                 </span>
               </div>
             </div>

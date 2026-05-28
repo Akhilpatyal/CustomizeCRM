@@ -221,7 +221,7 @@ const Sidebar = ({ isOpen = false, onClose }) => {
           {/* Footer */}
           <div className="p-4 border-t border-border">
             <div className="text-xs text-muted-foreground text-center">
-              Developed by Sasta Dev pvt ltd.
+              Developed by Unofficial Developer's pvt ltd.
               <br />© 2026 All rights reserved.
             </div>
           </div>
